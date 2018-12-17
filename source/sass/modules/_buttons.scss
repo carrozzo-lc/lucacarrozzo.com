@@ -1,0 +1,63 @@
+// -----------------------------
+// Buttons
+// -----------------------------
+
+.scroll-down {
+    border-top: solid 5px white;
+    border-left: solid 5px white;
+    border-right: solid 5px white;
+    width:70px;
+    height:60px;
+    color:$color-white-01;
+    cursor: pointer;
+
+    position:absolute;
+    margin:auto;
+    left:0; right:0; bottom:0;
+
+    @include transition(background-color .3s);
+
+    &:hover {
+        background-color: $color-black-02;
+    }
+
+    @include media-breakpoint-down(xl){
+        width:60px;
+        height:50px;
+    }
+    @include media-breakpoint-down(sm){
+        border-top: solid 4px white;
+        border-left: solid 4px white;
+        border-right: solid 4px white;
+
+        width:50px;
+        height:40px;
+    }
+
+    > div {
+        line-height: 52px;
+        white-space: nowrap;
+        text-align: center;
+
+        @include media-breakpoint-down(xl){
+            line-height: 44px;
+        }
+        @include media-breakpoint-down(sm){
+            line-height: 36px;
+        }
+    }
+
+    .icon {
+        @include rem(font-size, 28px)
+
+        @include media-breakpoint-down(xl){
+            @include rem(font-size, 24px)
+        }
+        @include media-breakpoint-down(sm){
+            @include rem(font-size, 21px)
+        }
+        &:before {
+        }
+    }
+
+}//.scroll-down

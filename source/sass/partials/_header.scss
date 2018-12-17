@@ -1,3 +1,9 @@
 // -----------------------------
 // Header
 // -----------------------------
+
+.site-header {
+    @include rem(padding-top, 15px);
+    @include rem(padding-left, 15px);
+    @include rem(padding-right, 15px);
+}//.site-header
