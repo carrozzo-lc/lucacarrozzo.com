@@ -116,8 +116,15 @@
         height:32px;
         @include transition(background-color .3s);
 
-        &:hover {
-            background-color: $color-black-02;
+        @include media-breakpoint-up(sm) {
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+        }
+        @include media-breakpoint-down(xs) {
+            &.btn--open {
+                background-color: rgba(0, 0, 0, 0.4);
+            }
         }
 
         &--tel {

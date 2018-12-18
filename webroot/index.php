@@ -59,9 +59,33 @@
                     <a href="<?php echo $mail; ?>" class="btn btn--mail d-none d-sm-block" title="twitter">
                         <i class="icon icon-mail-alt"></i>
                     </a>
-                    <div class="btn btn--share d-block d-sm-none">
-                        <i class="icon icon-share"></i>
+
+                    <div class="d-block d-sm-none">
+                        <div id="socialShare">
+                            <div class="socialBox pointer">
+
+                                <div class="btn btn--share">
+                                    <i class="icon icon-share"></i>
+                                </div>
+
+                                <div id="socialGallery">
+                                    <div class="socialToolBox">
+                                        <a href="<?php echo $twitter; ?>" class="btn btn--twitter" title="twitter">
+                                            <i class="icon icon-twitter"></i>
+                                        </a>
+                                        <a href="<?php echo $linkedin; ?>" class="btn btn--linkedin " title="twitter">
+                                            <i class="icon icon-linkedin"></i>
+                                        </a>
+                                        <a href="<?php echo $mail; ?>" class="btn btn--mail" title="twitter">
+                                            <i class="icon icon-mail-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div><!-- #socialShare -->
                     </div>
+
                 </div><!-- .button-right -->
 
             </nav><!-- .navigation -->
@@ -115,6 +139,7 @@
         <!-- Scripts -->
         <script src="js/vendor.js"></script>
         <script src="js/app.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 
     </body>
 </html>

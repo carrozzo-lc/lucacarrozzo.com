@@ -18,9 +18,9 @@
         @include media-breakpoint-down(xs) {
             padding-top:72px;
         }
-    }
+    }//.container
+
     .grid {
-        //border:solid 1px blue;
         height:100%;
         padding:0;
         @include flexbox()
@@ -35,13 +35,13 @@
         @include media-breakpoint-down(xs){
             display:block;
         }
-    }
+    }//.grid
+
     .column {
         padding:0;
-        //border:solid 1px red;
 
         @include media-breakpoint-down(md){
-            width:540px;
+            width:600px;
         }
         @include media-breakpoint-down(xs){
             width:350px;
@@ -64,6 +64,7 @@
                 }
                 @include media-breakpoint-down(md){
                     width:100%;
+                    @include rem(margin-bottom,18px)
                 }
                 @include media-breakpoint-down(xs){
                     width:100%;
@@ -73,7 +74,6 @@
             }
         }
         &:last-child { // intro - payoff
-            //padding-left:70px;
             margin-top:-5%;
 
             @include media-breakpoint-down(xl){
@@ -121,7 +121,6 @@
         }
 
     }
-
 
     &__subtitle {
         @include rem(font-size, 36px)
