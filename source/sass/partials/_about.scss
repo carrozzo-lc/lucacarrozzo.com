@@ -1,0 +1,38 @@
+// -----------------------------
+// About
+// -----------------------------
+
+.about {
+
+    &__desc {
+        max-width:780px;
+        margin:0 auto;
+
+        p {
+            @include rem(font-size, 21px)
+            text-align: center;
+
+            @include media-breakpoint-down(sm){
+                @include rem(font-size, 18px)
+            }
+
+            &:first-child {
+                margin-bottom:0;
+            }
+            &:nth-child(2) {
+                margin-top:1rem;
+            }
+        }
+    }//desc
+
+
+    &__rev-txt {
+        display:none;
+    }
+
+
+    &__skills {
+
+    }
+
+}//.about

@@ -117,8 +117,22 @@ $(document).ready(function(){
       }
     });
 
-    //
+    // Read more Read less script
     //---------------------------------------------
+    $(".btn-read").click(function() {
+        var elem = $(".btn-read").text();
+
+        if (elem == "Continue reading") {
+            //Stuff to do when btn is in the read more state
+            $(".btn-read").text("Read Less");
+            $(".about__rev-txt").slideDown();
+        } else {
+            //Stuff to do when btn is in the read less state
+            $(".btn-read").text("Continue reading");
+            $(".about__rev-txt").slideUp();
+        }
+    });
+
 
     //
     //---------------------------------------------

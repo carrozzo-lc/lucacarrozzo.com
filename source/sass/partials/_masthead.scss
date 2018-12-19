@@ -5,9 +5,11 @@
 .masthead {
     background-color: $color-green-01;
     position:relative;
+    @include rem(margin-bottom,60px)
 
     @include media-breakpoint-down(xs) {
-        height:520px;
+        //max-height:520px;
+        //@include rem(margin-bottom,60px)
     }
 
     .container {
@@ -43,6 +45,9 @@
         @include media-breakpoint-down(md){
             width:600px;
         }
+        @include media-breakpoint-down(sm){
+            width:570px;
+        }
         @include media-breakpoint-down(xs){
             width:350px;
             margin:auto;
@@ -69,7 +74,7 @@
                 @include media-breakpoint-down(xs){
                     width:100%;
                     min-width: inherit;
-                    @include rem(margin-bottom,8px)
+                    @include rem(margin-bottom,12px)
                 }
             }
         }
@@ -84,6 +89,12 @@
             }
             @include media-breakpoint-down(md){
                 margin-top:0;
+            }
+            @include media-breakpoint-down(xs){
+                @include rem(margin-bottom, 80px)
+            }
+            @media (max-width:320px) {
+                @include rem(margin-bottom, 60px)
             }
         }
     }//.column
@@ -116,8 +127,9 @@
         @include media-breakpoint-down(lg) {
             @include rem(font-size, 52px)
         }
-        @include media-breakpoint-down(sm) {
-            @include rem(font-size, 46px)
+        @include media-breakpoint-down(xs) {
+            @include rem(font-size, 44px)
+            @include rem(margin-bottom, 1px)
         }
 
     }
@@ -129,14 +141,14 @@
         line-height: 1;
 
         @include media-breakpoint-down(lg) {
-            @include rem(font-size, 32px)
+            @include rem(font-size, 30px)
         }
         @include media-breakpoint-down(md) {
             @include rem(font-size, 27px)
         }
-        @include media-breakpoint-down(sm) {
-            @include rem(font-size, 24px)
-            @include rem(margin-bottom, 10px)
+        @include media-breakpoint-down(xs) {
+            @include rem(font-size, 23px)
+            @include rem(margin-bottom, 8px)
         }
     }
 
@@ -149,7 +161,7 @@
             @include rem(font-size, 21px)
         }
         @include media-breakpoint-down(lg) {
-            @include rem(font-size, 18px)
+            //@include rem(font-size, 18px)
         }
         @include media-breakpoint-down(xs) {
             @include rem(font-size, 16px)

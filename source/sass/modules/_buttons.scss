@@ -147,3 +147,16 @@
 .pointer {
   cursor: pointer
 }
+
+// end ----------------
+
+.btn-read {
+    @include rem(font-size,21px)
+    color:$color-black-01;
+    text-decoration: underline;
+    font-weight: 700;
+    text-align:center;
+    @include media-breakpoint-down(sm){
+        @include rem(font-size, 18px)
+    }
+}//.btn-read

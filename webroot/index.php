@@ -1,4 +1,4 @@
-<?php include 'php/variables.php';?>
+<?php include 'php/includes/variables.php';?>
 
 <!doctype html>
 <html lang="en">
@@ -34,112 +34,21 @@
     </head>
 
     <body>
+        <?php include 'php/template-parts/header.php';?>
 
-        <header class="site-header fixed-top">
-            <nav class="navigation">
+        <?php include 'php/template-parts/masthead.php';?>
 
-                <div class="button-left">
-                    <a class="btn btn--tel" href="tel:<?php echo $stripped = str_replace(' ', '', $tel) ?>" title="telephon">
-                        <i class="icon icon-phone"></i> <span><?php echo $tel ?></span>
-                    </a>
-                </div><!-- .button-left -->
+        <?php include 'php/template-parts/about.php';?>
 
-                <div class="brand">
-                    <a href="<?php echo $siteUrl; ?>" title="<?php echo $metaTitle; ?>"></a>
-                    <img class="logo" src="<?php echo $logo; ?>" alt="<?php echo $metatitle; ?>">
-                </div><!-- .brand -->
+        <?php include 'php/template-parts/services.php';?>
 
-                <div class="button-right">
-                    <a href="<?php echo $twitter; ?>" class="btn btn--twitter d-none d-sm-block" title="twitter">
-                        <i class="icon icon-twitter"></i>
-                    </a>
-                    <a href="<?php echo $linkedin; ?>" class="btn btn--linkedin d-none d-sm-block" title="twitter">
-                        <i class="icon icon-linkedin"></i>
-                    </a>
-                    <a href="<?php echo $mail; ?>" class="btn btn--mail d-none d-sm-block" title="twitter">
-                        <i class="icon icon-mail-alt"></i>
-                    </a>
+        <?php include 'php/template-parts/portfolio.php';?>
 
-                    <div class="d-block d-sm-none">
-                        <div id="socialShare">
-                            <div class="socialBox pointer">
-
-                                <div class="btn btn--share">
-                                    <i class="icon icon-share"></i>
-                                </div>
-
-                                <div id="socialGallery">
-                                    <div class="socialToolBox">
-                                        <a href="<?php echo $twitter; ?>" class="btn btn--twitter" title="twitter">
-                                            <i class="icon icon-twitter"></i>
-                                        </a>
-                                        <a href="<?php echo $linkedin; ?>" class="btn btn--linkedin " title="twitter">
-                                            <i class="icon icon-linkedin"></i>
-                                        </a>
-                                        <a href="<?php echo $mail; ?>" class="btn btn--mail" title="twitter">
-                                            <i class="icon icon-mail-alt"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div><!-- #socialShare -->
-                    </div>
-
-                </div><!-- .button-right -->
-
-            </nav><!-- .navigation -->
-        </header><!-- .site-header -->
-
-        <section class="masthead">
-            <div class="container">
-                <div class="grid">
-                    <div class="column masthead__image">
-                        <img src="<?php echo $mastheadImg; ?>" alt="">
-                    </div><!-- .column -->
-                    <div class="column masthead__intro">
-                        <div class="intro">
-                            <h1 class="intro__title">
-                                <?php echo $introTitle; ?>
-                            </h1>
-                            <h2 class="intro__subtitle">
-                                <?php echo $introSubtitle; ?>
-                            </h2>
-                            <p class="intro__desc">
-                                <?php echo $introDesc; ?>
-                            </p>
-                        </div>
-                    </div><!-- .column -->
-                </div><!-- .grid -->
-            </div><!-- .container -->
-
-            <div class="scroll-down">
-                <div>
-                    <span class="icon icon-down-open"></span>
-                </div>
-            </div><!-- .scroll-down -->
-        </section><!-- .masthead -->
-
-        <section class="about">
-
-        </section><!-- .about -->
-
-        <section class="services">
-
-        </section><!-- .services -->
-
-        <section class="portfolio">
-
-        </section><!-- .portfolio -->
-
-        <footer class="site-footer">
-
-        </footer><!-- .site-footer -->
+        <?php include 'php/template-parts/footer.php';?>
 
         <!-- Scripts -->
         <script src="js/vendor.js"></script>
         <script src="js/app.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-
     </body>
 </html>
