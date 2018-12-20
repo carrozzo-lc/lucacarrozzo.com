@@ -48,9 +48,7 @@ $(document).ready(function(){
                 $(window).trigger('resize');
 
             } else if( width <= 575 ) {
-
                 // code for mobile portrait
-
             }
         }, pause );
     });
@@ -131,6 +129,266 @@ $(document).ready(function(){
             $(".btn-read").text("Continue reading");
             $(".about__rev-txt").slideUp();
         }
+    });
+
+
+    // Skills circles
+    //---------------------------------------------
+
+    // Skill 01
+    var skill_01 = (function() {
+        var executed = false;
+        return function() {
+            if (!executed) {
+                executed = true;
+
+                var bar = new ProgressBar.Circle('.skill01', {
+                    // This has to be the same size as the maximum width to
+                    // prevent clipping
+                    strokeWidth: 2,
+                    //trailWidth: 1,
+                    easing: 'easeInOut',
+                    duration: 1400,
+                    text: {
+                        autoStyleContainer: false,
+                        className: 'skill__label',
+                    },
+                    from: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    to: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    // Set default step function for all animate calls
+                    step: function(state, circle) {
+                        circle.path.setAttribute('stroke', state.color);
+                        circle.path.setAttribute('stroke-width', state.width);
+
+                        var value = Math.round(circle.value() * 100);
+                        if (value === 0) {
+                            circle.setText('');
+                        } else {
+                            circle.setText(value + '%');
+                        }
+                    }
+                });
+
+                bar.animate(0.99);  // Number from 0.0 to 1.0
+
+            }
+        };
+    })();
+
+    // Skill 02
+    var skill_02 = (function() {
+        var executed = false;
+        return function() {
+            if (!executed) {
+                executed = true;
+
+                var bar = new ProgressBar.Circle('.skill02', {
+                    // This has to be the same size as the maximum width to
+                    // prevent clipping
+                    strokeWidth: 2,
+                    //trailWidth: 1,
+                    easing: 'easeInOut',
+                    duration: 1400,
+                    text: {
+                        autoStyleContainer: false,
+                        className: 'skill__label',
+                    },
+                    from: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    to: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    // Set default step function for all animate calls
+                    step: function(state, circle) {
+                        circle.path.setAttribute('stroke', state.color);
+                        circle.path.setAttribute('stroke-width', state.width);
+
+                        var value = Math.round(circle.value() * 100);
+                        if (value === 0) {
+                            circle.setText('');
+                        } else {
+                            circle.setText(value + '%');
+                        }
+                    }
+                });
+
+                bar.animate(0.99);  // Number from 0.0 to 1.0
+
+            }
+        };
+    })();
+
+    // Skill 03
+    var skill_03 = (function() {
+        var executed = false;
+        return function() {
+            if (!executed) {
+                executed = true;
+
+                var bar = new ProgressBar.Circle('.skill03', {
+                    // This has to be the same size as the maximum width to
+                    // prevent clipping
+                    strokeWidth: 2,
+                    //trailWidth: 1,
+                    easing: 'easeInOut',
+                    duration: 1400,
+                    text: {
+                        autoStyleContainer: false,
+                        className: 'skill__label',
+                    },
+                    from: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    to: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    // Set default step function for all animate calls
+                    step: function(state, circle) {
+                        circle.path.setAttribute('stroke', state.color);
+                        circle.path.setAttribute('stroke-width', state.width);
+
+                        var value = Math.round(circle.value() * 100);
+                        if (value === 0) {
+                            circle.setText('');
+                        } else {
+                            circle.setText(value + '%');
+                        }
+                    }
+                });
+
+                bar.animate(0.80);  // Number from 0.0 to 1.0
+
+            }
+        };
+    })();
+
+    // Skill 04
+    var skill_04 = (function() {
+        var executed = false;
+        return function() {
+            if (!executed) {
+                executed = true;
+
+                var bar = new ProgressBar.Circle('.skill04', {
+                    // This has to be the same size as the maximum width to
+                    // prevent clipping
+                    strokeWidth: 2,
+                    //trailWidth: 1,
+                    easing: 'easeInOut',
+                    duration: 1400,
+                    text: {
+                        autoStyleContainer: false,
+                        className: 'skill__label',
+                    },
+                    from: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    to: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    // Set default step function for all animate calls
+                    step: function(state, circle) {
+                        circle.path.setAttribute('stroke', state.color);
+                        circle.path.setAttribute('stroke-width', state.width);
+
+                        var value = Math.round(circle.value() * 100);
+                        if (value === 0) {
+                            circle.setText('');
+                        } else {
+                            circle.setText(value + '%');
+                        }
+                    }
+                });
+
+                bar.animate(0.90);  // Number from 0.0 to 1.0
+
+            }
+        };
+    })();
+
+    // Skill 05
+    var skill_05 = (function() {
+        var executed = false;
+        return function() {
+            if (!executed) {
+                executed = true;
+
+                var bar = new ProgressBar.Circle('.skill05', {
+                    // This has to be the same size as the maximum width to
+                    // prevent clipping
+                    strokeWidth: 2,
+                    //trailWidth: 1,
+                    easing: 'easeInOut',
+                    duration: 1400,
+                    text: {
+                        autoStyleContainer: false,
+                        className: 'skill__label',
+                    },
+                    from: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    to: {
+                        color: '#18EFCD',
+                        width: 2
+                    },
+                    // Set default step function for all animate calls
+                    step: function(state, circle) {
+                        circle.path.setAttribute('stroke', state.color);
+                        circle.path.setAttribute('stroke-width', state.width);
+
+                        var value = Math.round(circle.value() * 100);
+                        if (value === 0) {
+                            circle.setText('');
+                        } else {
+                            circle.setText(value + '%');
+                        }
+                    }
+                });
+
+                bar.animate(0.80);  // Number from 0.0 to 1.0
+
+            }
+        };
+    })();
+
+
+    // Run scripts when are visible on screen
+    //---------------------------------------------
+    function isScrolledIntoView(elem){
+        var $elem = $(elem);
+        var $window = $(window);
+
+        var docViewTop = $window.scrollTop();
+        var docViewBottom = docViewTop + $window.height();
+
+        var elemTop = $elem.offset().top;
+        var elemBottom = elemTop + $elem.height();
+
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+    $(window).scroll(function(){
+        if(isScrolledIntoView($('.skill01, skill02, skill03, skill04, skill05'))){
+            skill_01();
+            skill_02();
+            skill_03();
+            skill_04();
+            skill_05();
+        }
+        else{}
     });
 
 

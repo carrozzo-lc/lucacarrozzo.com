@@ -29,6 +29,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
-    "jshint": "^2.9.6"
-  }
+    "jshint": "^2.9.6",
+    "progressbar.js": "^1.0.1"
+  },
+  "dependencies": {}
 }

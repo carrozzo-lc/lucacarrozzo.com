@@ -18,8 +18,41 @@
         </div><!-- .about__desc -->
 
         <div class="skills">
-
+            <div class="skill">
+                <div class="skill__box skill01"></div>
+                <div class="skill__text">
+                    Html5
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill__box skill02"></div>
+                <div class="skill__text">
+                    Css3, Sass/Less
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill__box skill03"></div>
+                <div class="skill__text">
+                    Javascript
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill__box skill04"></div>
+                <div class="skill__text">
+                    Responsive Design
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill__box skill05"></div>
+                <div class="skill__text">
+                    Web Design
+                </div>
+            </div>
         </div><!-- .skills -->
+
+        <div class="btn-box">
+            <a href="images/cv_luca_carrozzo.pdf" class="btn-cv" target="_blank">Download CV</a>
+        </div>
 
     </div><!-- .container -->
 </section><!-- .about -->

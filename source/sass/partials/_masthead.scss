@@ -5,7 +5,7 @@
 .masthead {
     background-color: $color-green-01;
     position:relative;
-    @include rem(margin-bottom,60px)
+    @include rem(margin-bottom,80px)
 
     @include media-breakpoint-down(xs) {
         //max-height:520px;
