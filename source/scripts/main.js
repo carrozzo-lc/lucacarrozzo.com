@@ -115,6 +115,7 @@ $(document).ready(function(){
       }
     });
 
+
     // Read more Read less script
     //---------------------------------------------
     $(".btn-read").click(function() {
@@ -394,6 +395,22 @@ $(document).ready(function(){
 
     //
     //---------------------------------------------
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      //direction: 'vertical',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    })
 
     //
     //---------------------------------------------

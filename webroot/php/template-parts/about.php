@@ -12,46 +12,24 @@
         </div><!-- .section-title -->
 
         <div class="about__desc">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel risus maximus, dignissim ex nec, ultricies ex. Pellentesque hendrerit tempus nisl. In hac habitasse platea dictumst. Proin hendrerit leo sed ultricies maximus. Ut at arcu iaculis, molestie diam viverra, consequat urna. Etiam placerat id lorem et vehicula. Nulla vel ullamcorper sem, vel pharetra orci. Sed quis sollicitudin ante, sit amet pulvinar nunc.
-            <p class="about__rev-txt">Vestibulum ac ex efficitur, viverra magna vel, sodales eros. Nulla eget sodales nulla. Vestibulum ultricies cursus sem, in sagittis risus porttitor sit amet. Ut faucibus odio at lacus varius, nec dictum erat euismod. Fusce vitae malesuada nisi. Vivamus commodo volutpat ultrices. Morbi fringilla erat mauris, id volutpat augue faucibus eu. Sed condimentum turpis sed pulvinar porta. Quisque arcu tortor, sollicitudin a ullamcorper vitae, vulputate sed justo. Sed nec pretium mi, eget rhoncus mi. Curabitur egestas varius felis sed volutpat. Curabitur iaculis faucibus magna, eu iaculis turpis efficitur nec. Nullam et sagittis lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed finibus in nibh sit amet volutpat. Integer ac nulla at elit consequat tristique.</p>
-            <div class="btn-read">Continue reading</div>
+            <?php echo $abt_description; ?>
+            <div class="btn-read"><?php echo $abt_btnRead; ?></div>
         </div><!-- .about__desc -->
 
         <div class="skills">
+            <?php
+            for($i = 1; $i <= 5; $i += 1) { ?>
             <div class="skill">
-                <div class="skill__box skill01"></div>
+                <div class="skill__box skill0<?php echo $i; ?>"></div>
                 <div class="skill__text">
-                    Html5
+                    <?php echo ${'abt_skill0' . $i} ?>
                 </div>
             </div>
-            <div class="skill">
-                <div class="skill__box skill02"></div>
-                <div class="skill__text">
-                    Css3, Sass/Less
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill__box skill03"></div>
-                <div class="skill__text">
-                    Javascript
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill__box skill04"></div>
-                <div class="skill__text">
-                    Responsive Design
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill__box skill05"></div>
-                <div class="skill__text">
-                    Web Design
-                </div>
-            </div>
+            <?php } ?>
         </div><!-- .skills -->
 
         <div class="btn-box">
-            <a href="images/cv_luca_carrozzo.pdf" class="btn-cv" target="_blank">Download CV</a>
+            <a href="<?php echo $abt_pdfCv; ?>" class="btn-cv" target="_blank"><?php echo $abt_btnCv; ?></a>
         </div>
 
     </div><!-- .container -->

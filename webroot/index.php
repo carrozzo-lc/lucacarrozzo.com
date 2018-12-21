@@ -50,6 +50,7 @@
         <script src="js/vendor.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
         <script src="js/progressbar.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
         <script src="js/app.min.js"></script>
     </body>
 </html>
