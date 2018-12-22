@@ -66,6 +66,14 @@
 // Social share button styles
 // -----------------------------
 #socialShare {
+
+    .btn--share {
+        @include media-breakpoint-down(xs){
+            vertical-align: inherit;
+            margin-left:0;
+        }
+
+    }
     a,
     > .socialBox {
       position: relative;
@@ -118,7 +126,9 @@
 #socialGallery {
     margin: 0 auto 0;
     position: absolute;
-    top: 40px; right:-13px; left:0;
+    top: 40px;
+    right:0;
+    left:-1px;
     visibility: hidden;
     width: auto;
 
@@ -147,7 +157,6 @@
 .pointer {
   cursor: pointer
 }
-
 // end ----------------
 
 // Button Read more less

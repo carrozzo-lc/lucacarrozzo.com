@@ -50,6 +50,9 @@
         @include media-breakpoint-up(xl){
             top:8px;
         }
+        @include media-breakpoint-up(xs){
+            top:7px;
+        }
 
         img {
             display:block;

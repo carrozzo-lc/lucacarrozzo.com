@@ -424,4 +424,36 @@ $(document).ready(function(){
         }
     });
 
+    //
+    //---------------------------------------------
+    var header = $(".site-header");
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 200) {
+            header.removeClass('header-up').addClass("header-down");
+        } else {
+            header.removeClass("header-down").addClass('header-up');
+        }
+    });
+
+
+    // script per scroll to element
+    //---------------------------------------------
+    $(".scroll-down").click(function(e) {
+		// Prevent a page reload when a link is pressed
+		e.preventDefault();
+		// Call the scroll function
+		$('html,body').animate({
+			scrollTop: $("#about").offset().top - 120
+		},'slow');
+	});
+
+    //
+    //---------------------------------------------
+    //
+    //---------------------------------------------
+    //
+    //---------------------------------------------
+
 }); // End document.ready
