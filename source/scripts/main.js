@@ -393,7 +393,7 @@ $(document).ready(function(){
     });
 
 
-    //
+    // Slider parameters
     //---------------------------------------------
     var mySwiper = new Swiper ('.swiper-container', {
       // Optional parameters
@@ -412,8 +412,16 @@ $(document).ready(function(){
       },
     })
 
-    //
+    // Truncate text with clamp.js
     //---------------------------------------------
-
+    $(window).resize(function(){
+        if ($(window).width() <= 992) {
+            // var module = document.getElementById("clampjs");
+            // $clamp(module, {clamp: 3});
+            $('.clampjs').each(function(index, element) {
+                $clamp(element, { clamp: 3 });
+            });
+        }
+    });
 
 }); // End document.ready

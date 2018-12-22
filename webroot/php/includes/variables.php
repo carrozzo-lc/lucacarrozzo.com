@@ -55,9 +55,43 @@
 
 
     //-- Portfolio
-    $prt_variable = "";
-    $prt_variable = "";
-    $prt_variable = "";
+    $prt_title = "Portfolio";
+
+    $prt_title1 = "Site Title 1";
+    $prt_description1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis metus et enim fringilla, auctor ornare tortor lacinia. Duis id magna finibus, bibendum elit ut, interdum orci. In sit amet vehicula massa. Ut suscipit magna ac turpis malesuada, et pulvinar ligula imperdiet. Etiam mollis eros dolor, nec ullamcorper orci tempus ut.";
+    $prt_image1 = "images/portfolio-img01.jpg";
+    $prt_link1 = "#";
+    $prt_color1 = "#F2222F";
+
+    $prt_title2 = "Site Title 2";
+    $prt_description2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis metus et enim fringilla, auctor ornare tortor lacinia. Duis id magna finibus, bibendum elit ut, interdum orci. In sit amet vehicula massa. Ut suscipit magna ac turpis malesuada, et pulvinar ligula imperdiet. Etiam mollis eros dolor, nec ullamcorper orci tempus ut.";
+    $prt_image2 = "images/portfolio-img01.jpg";
+    $prt_link2 = "#";
+    $prt_color2 = "#00BCD5";
+
+    $prt_title3 = "Site Title 3";
+    $prt_description3 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis metus et enim fringilla, auctor ornare tortor lacinia. Duis id magna finibus, bibendum elit ut, interdum orci. In sit amet vehicula massa. Ut suscipit magna ac turpis malesuada, et pulvinar ligula imperdiet. Etiam mollis eros dolor, nec ullamcorper orci tempus ut.";
+    $prt_image3 = "images/portfolio-img01.jpg";
+    $prt_link3 = "#";
+    $prt_color3 = "#FF931E";
+
+    $prt_title4 = "Site Title 4";
+    $prt_description4 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis metus et enim fringilla, auctor ornare tortor lacinia. Duis id magna finibus, bibendum elit ut, interdum orci. In sit amet vehicula massa. Ut suscipit magna ac turpis malesuada, et pulvinar ligula imperdiet. Etiam mollis eros dolor, nec ullamcorper orci tempus ut.";
+    $prt_image4 = "images/portfolio-img01.jpg";
+    $prt_link4 = "#";
+    $prt_color4 = "#F2222F";
+
+    $prt_title5 = "Site Title 5";
+    $prt_description5 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis metus et enim fringilla, auctor ornare tortor lacinia. Duis id magna finibus, bibendum elit ut, interdum orci. In sit amet vehicula massa. Ut suscipit magna ac turpis malesuada, et pulvinar ligula imperdiet. Etiam mollis eros dolor, nec ullamcorper orci tempus ut.";
+    $prt_image5 = "images/portfolio-img01.jpg";
+    $prt_link5 = "#";
+    $prt_color5 = "#FF931E";
+
+    $prt_title6 = "Site Title 6";
+    $prt_description6 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis metus et enim fringilla, auctor ornare tortor lacinia. Duis id magna finibus, bibendum elit ut, interdum orci. In sit amet vehicula massa. Ut suscipit magna ac turpis malesuada, et pulvinar ligula imperdiet. Etiam mollis eros dolor, nec ullamcorper orci tempus ut.";
+    $prt_image6 = "images/portfolio-img01.jpg";
+    $prt_link6 = "#";
+    $prt_color6 = "#FF931E";
 
 
     //-- Footer

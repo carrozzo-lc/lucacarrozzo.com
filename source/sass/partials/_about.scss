@@ -4,6 +4,10 @@
 
 .about {
 
+    .section-title {
+        @include rem(margin-bottom, 35px)
+    }
+
     &__desc {
         max-width:780px;
         margin:0 auto;
@@ -43,11 +47,6 @@
 
     &__rev-txt {
         display:none;
-    }
-
-
-    &__skills {
-
     }
 
 }//.about
