@@ -37,12 +37,10 @@
 }
 
 .lds-ring {
-  display: block;
-  position: relative;
-  width: 134px;
-  height: 134px;
-  margin:0 auto;
-  margin-top:10%;
+    @include flexbox()
+    @include justify-content(center)
+    @include align-items(center)
+    height:60%;
 }
 .lds-ring div {
   box-sizing: border-box;

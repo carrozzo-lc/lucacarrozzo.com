@@ -25,6 +25,14 @@
     @include rem(padding-left,15px)
     @include rem(padding-right,15px)
 
+    @include media-breakpoint-down(lg){
+        @include rem(padding-top,60px)
+        @include rem(padding-bottom,80px)
+    }
+    @include media-breakpoint-down(lg){
+        @include rem(padding-top,60px)
+        @include rem(padding-bottom,70px)
+    }
     @include media-breakpoint-down(sm){
         @include rem(padding-top,40px)
         @include rem(padding-bottom,50px)
