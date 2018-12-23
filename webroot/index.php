@@ -34,6 +34,13 @@
     </head>
 
     <body>
+        <div id="preloader">
+            <div class="logo-loader">
+                <img class="logo" src="<?php echo $logo; ?>" alt="<?php echo $metatitle; ?>">
+            </div>
+            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        </div>
+
         <?php include 'php/template-parts/header.php';?>
 
         <?php include 'php/template-parts/masthead.php';?>
@@ -46,11 +53,13 @@
 
         <?php include 'php/template-parts/footer.php';?>
 
+        <!-- Return to Top -->
+        <a href="javascript:" id="return-to-top">
+            <i class="icon-up-open-1"></i>
+        </a>
+
         <!-- Scripts -->
         <script src="js/vendor.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-        <script src="js/progressbar.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
         <script src="js/app.min.js"></script>
     </body>
 </html>

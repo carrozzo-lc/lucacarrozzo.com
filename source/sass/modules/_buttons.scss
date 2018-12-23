@@ -72,7 +72,6 @@
             vertical-align: inherit;
             margin-left:0;
         }
-
     }
     a,
     > .socialBox {
@@ -163,25 +162,28 @@
 // -----------------------------
 .btn-read {
     cursor: pointer;
-    @include rem(font-size,21px)
+    @include rem(font-size,24px)
     color:$color-black-01;
     text-decoration: underline;
     font-weight: 700;
     text-align:center;
+    @include media-breakpoint-down(xl){
+        @include rem(font-size, 21px)
+    }
     @include media-breakpoint-down(lg){
         @include rem(font-size, 18px)
     }
 }//.btn-read
 
 
-// Button CV
+// Button Fancy
 // -----------------------------
 .btn-box {
     width:auto;
     margin:0 auto;
     text-align:center;
 }
-.btn-cv {
+.btn-fancy {
 	border: none;
 	@include rem(font-size, 28px)
     text-align: center;
@@ -190,7 +192,7 @@
 	display: inline-block;
 	margin: 15px auto;
 	font-weight: 500;
-    letter-spacing: 0.5px;
+    //letter-spacing: 0.5px;
 	outline: none;
 	position: relative;
     background: $primary;
@@ -202,7 +204,6 @@
         @include rem(font-size, 21px)
         padding: 7px 32px;
     }
-
 
     &:hover {
     	box-shadow: 4px 4px $color-black-01;
@@ -218,4 +219,184 @@
     &:focus {
         outline:inherit;
     }
-}//.btn-cv
+
+    &--footer {
+        background: $color-white-01;
+        color: $color-black-01 !important;
+        @include rem(font-size, 32px)
+        @include rem(padding, 4px 40px 8px 40px)
+        font-weight:400;
+
+        @include media-breakpoint-down(xl){
+            @include rem(font-size, 27px)
+            @include rem(padding, 4px 26px 8px 26px)
+        }
+        @include media-breakpoint-down(lg){
+            @include rem(font-size, 24px)
+            @include rem(padding, 4px 22px 8px 22px)
+        }
+        @include media-breakpoint-down(sm){
+            @include rem(font-size, 22px)
+            @include rem(padding, 2px 12px 4px 12px)
+        }
+
+        .icon {
+            @include rem(font-size, 26px)
+
+            @include media-breakpoint-down(xl){
+                @include rem(font-size, 22px)
+            }
+            @include media-breakpoint-down(lg){
+                @include rem(font-size, 20px)
+            }
+            @include media-breakpoint-down(sm) {
+                @include rem(font-size, 17px)
+            }
+
+            &-phone {
+                @include rem(font-size, 28px)
+
+                @include media-breakpoint-down(xl){
+                    @include rem(font-size, 22px)
+                }
+                @include media-breakpoint-down(lg){
+                    @include rem(font-size, 20px)
+                }
+                @include media-breakpoint-down(sm) {
+                    @include rem(font-size, 22px)
+                }
+                &:before {
+                    vertical-align: middle;
+                    @include media-breakpoint-down(xl){
+                        @include rem(margin-right,0px)
+                    }
+                }
+            }
+            &-mail-alt {
+                @include rem(margin-right,4px)
+
+                @include media-breakpoint-down(xl){
+                }
+                @include media-breakpoint-down(lg){
+                }
+                @include media-breakpoint-down(sm) {
+                    @include rem(margin-right,2px)
+                }
+            }
+            &:before {
+                margin-left:0;
+            }
+        }
+
+    }
+}//.btn-fancy
+
+
+// btn social
+// -----------------------------
+.btn-social {
+    padding:0;
+    position:relative;
+    display: inline-block;
+    color:$color-white-01;
+    border:solid 2px $color-white-01;
+    @include border-radius(50%);
+    width:66px;
+    height:66px;
+    @include transition(background-color .3s);
+    @include rem(margin, 0 8px)
+
+    @include media-breakpoint-down(xl){
+        width:60px;
+        height:60px;
+    }
+    @include media-breakpoint-down(lg){
+        width:52px;
+        height:52px;
+    }
+    @include media-breakpoint-down(sm) {
+        width:60px;
+        height:60px;
+        @include rem(margin-right,2px)
+    }
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+        color:$color-white-01;
+    }
+
+    .icon {
+        @include rem(font-size, 32px)
+        @include media-breakpoint-down(xl){
+            @include rem(font-size, 30px)
+        }
+        @include media-breakpoint-down(lg){
+            @include rem(font-size, 28px)
+        }
+        @include media-breakpoint-down(sm) {
+            @include rem(font-size, 32px)
+        }
+
+        &:before {
+            margin:0;
+            display:block;
+            margin:auto;
+            position:absolute;
+            top:0; right:0; left:0; bottom:0;
+            @include media-breakpoint-down(lg){
+                bottom:-2px;
+            }
+        }
+        &-twitter:before {
+            width:29px;
+            height:32px;
+        }
+        &-linkedin:before {
+            width:28px;
+            height:34px;
+        }
+    }
+}//.btn-social
+
+
+// return top top button
+// -----------------------------
+#return-to-top {
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
+    width: 40px;
+    height: 32px;
+    display: block;
+    text-decoration: none;
+    z-index: 9999;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+    i {
+        color: #fff;
+        margin: 0;
+        position: relative;
+        left: 7px;
+        top: 3px;
+        font-size: 19px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    &:hover {
+        background: rgba(0, 0, 0, 0.7);
+    }
+    &:hover i {
+        color: #fff;
+        top: 5px;
+    }
+}//#return-to-top

@@ -29,7 +29,7 @@
         </div><!-- .skills -->
 
         <div class="btn-box">
-            <a href="<?php echo $abt_pdfCv; ?>" class="btn-cv" target="_blank"><?php echo $abt_btnCv; ?></a>
+            <a href="<?php echo $abt_pdfCv; ?>" class="btn-fancy" target="_blank"><?php echo $abt_btnCv; ?></a>
         </div>
 
     </div><!-- .container -->

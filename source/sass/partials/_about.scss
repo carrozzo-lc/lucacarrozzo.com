@@ -9,7 +9,7 @@
     }
 
     &__desc {
-        max-width:780px;
+        max-width:680px;
         margin:0 auto;
         @include rem(margin-bottom,80px)
 
@@ -28,9 +28,11 @@
         }
 
         p {
-            @include rem(font-size, 21px)
+            @include rem(font-size, 24px)
             text-align: center;
-
+            @include media-breakpoint-down(xl){
+                @include rem(font-size, 21px)
+            }
             @include media-breakpoint-down(lg){
                 @include rem(font-size, 18px)
             }

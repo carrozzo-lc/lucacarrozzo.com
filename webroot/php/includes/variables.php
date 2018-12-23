@@ -14,21 +14,25 @@
     $logo = "images/lucacarrozzo-logo.svg";
     $twitter = "https://twitter.com/carrozzo_lc";
     $linkedin = "https://www.linkedin.com/in/lucacarrozzowebdesigner/?locale=en_US";
-    $mail = "mailto:me@lucacarrozzo.com";
+    $mail = "me@lucacarrozzo.com";
+    $name = "Luca Carrozzo";
 
 
     //-- Masthead
     $mastheadImg = "images/masthead-img.svg";
     $introTitle = "Luca Carrozzo";
     $introSubtitle = "Front End Developer";
-    $introDesc = "Web Designer / Front-End Developer Freelance web enthusiast in all its many facets, constantly updating on new industry specifications and trends.";
+    $introDesc = "Web Designer / Front-End Developer web enthusiast in all its many facets, constantly updating on new industry specifications and trends.";
 
 
     //-- About
     $abt_title = "About";
-    $abt_description = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel risus maximus, dignissim ex nec, ultricies ex. Pellentesque hendrerit tempus nisl. In hac habitasse platea dictumst. Proin hendrerit leo sed ultricies maximus. Ut at arcu iaculis, molestie diam viverra, consequat urna. Etiam placerat id lorem et vehicula. Nulla vel ullamcorper sem, vel pharetra orci. Sed quis sollicitudin ante, sit amet pulvinar nunc.
-<p class=\"about__rev-txt\">Vestibulum ac ex efficitur, viverra magna vel, sodales eros. Nulla eget sodales nulla. Vestibulum ultricies cursus sem, in sagittis risus porttitor sit amet. Ut faucibus odio at lacus varius, nec dictum erat euismod. Fusce vitae malesuada nisi. Vivamus commodo volutpat ultrices. Morbi fringilla erat mauris, id volutpat augue faucibus eu. Sed condimentum turpis sed pulvinar porta. Quisque arcu tortor, sollicitudin a ullamcorper vitae, vulputate sed justo. Sed nec pretium mi, eget rhoncus mi. Curabitur egestas varius felis sed volutpat. Curabitur iaculis faucibus magna, eu iaculis turpis efficitur nec. Nullam et sagittis lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed finibus in nibh sit amet volutpat. Integer ac nulla at elit consequat tristique.</p>";
-    $abt_btnRead = "Continue reading";
+    $abt_description = "
+    <p>I am Luca Carrozzo, a Front-End Developer based in Italy. I am primarily focused on website development and interface development for web applications but love taking on any good front end dev challenge.</p>
+    <p class=\"about__rev-txt\">I have 6 years of hands-on experience efficiently coding websites and applications using modern HTML, CSS, and JavaScript. Building state-of-the-art, easy to use, user-friendly websites and applications is truly a passion of mine. I actively seek out new technologies and stay up-to-date on industry trends and advancements.</p>
+    <p class=\"about__rev-txt\">Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I’ve worked for - both full-time and contract.</p>
+    ";
+    $abt_btnRead = "Read more";
     $abt_btnCv = "Download CV";
     $abt_pdfCv = "images/cv_luca_carrozzo.pdf";
     $abt_skill01 = "Html5";
@@ -95,7 +99,7 @@
 
 
     //-- Footer
-    $footer_variable = "";
-    $footer_variable = "";
+    $footer_intro = "Did you like my work? I can do something similar for you.";
+    $copyright_variable = "";
     $footer_variable = "";
 ?>

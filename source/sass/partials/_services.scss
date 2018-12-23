@@ -94,6 +94,9 @@
         @include media-breakpoint-down(xl){
             @include rem(font-size, 16px)
         }
+        @include media-breakpoint-down(lg){
+            @include rem(font-size, 16px)
+        }
         @include media-breakpoint-down(sm){
             @include rem(font-size, 18px)
             width: 75%;

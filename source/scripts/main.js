@@ -121,13 +121,13 @@ $(document).ready(function(){
     $(".btn-read").click(function() {
         var elem = $(".btn-read").text();
 
-        if (elem == "Continue reading") {
+        if (elem == "Read more") {
             //Stuff to do when btn is in the read more state
             $(".btn-read").text("Read Less");
             $(".about__rev-txt").slideDown();
         } else {
             //Stuff to do when btn is in the read less state
-            $(".btn-read").text("Continue reading");
+            $(".btn-read").text("Read more");
             $(".about__rev-txt").slideUp();
         }
     });
@@ -439,7 +439,7 @@ $(document).ready(function(){
 
 
     // script per scroll to element
-    //---------------------------------------------
+    //-s--------------------------------------------
     $(".scroll-down").click(function(e) {
 		// Prevent a page reload when a link is pressed
 		e.preventDefault();
@@ -449,10 +449,31 @@ $(document).ready(function(){
 		},'slow');
 	});
 
-    //
+
+    // site preloader
     //---------------------------------------------
-    //
+    $(window).on('load', function(){
+        $('#preloader').fadeOut('slow',function(){
+            $(this).remove();
+        });
+    });
+
+
+    // Scroll to Top
     //---------------------------------------------
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        } else {
+            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+        }
+    });
+    $('#return-to-top').click(function() {      // When arrow is clicked
+        $('body,html').animate({
+            scrollTop : 0                       // Scroll to top of body
+        }, 500);
+    });
+
     //
     //---------------------------------------------
 
