@@ -452,11 +452,11 @@ $(document).ready(function(){
 
     // site preloader
     //---------------------------------------------
-    $(window).on('load', function(){
+    window.onload=new function() {
         $('#preloader').fadeOut('slow',function(){
             $(this).remove();
         });
-    });
+    };
 
 
     // Scroll to Top
