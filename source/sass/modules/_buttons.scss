@@ -305,6 +305,7 @@
     height:66px;
     @include transition(background-color .3s);
     @include rem(margin, 0 8px)
+    text-decoration: none !important;
 
     @include media-breakpoint-down(xl){
         width:60px;

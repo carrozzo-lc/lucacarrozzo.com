@@ -60,7 +60,6 @@
         </a><!-- #return-to-top -->
 
         <!-- Scripts -->
-        <script src="js/modernizr.js"></script>
         <script src="js/vendor.js"></script>
         <script src="js/app.min.js"></script>
     </body>
