@@ -38,8 +38,10 @@
             <div class="logo-loader">
                 <img class="logo" src="<?php echo $logo; ?>" alt="<?php echo $metatitle; ?>">
             </div>
-            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-        </div>
+            <div class="lds-container">
+                <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+            </div>
+        </div><!-- #preloader -->
 
         <?php include 'php/template-parts/header.php';?>
 
@@ -53,12 +55,12 @@
 
         <?php include 'php/template-parts/footer.php';?>
 
-        <!-- Return to Top -->
         <a href="javascript:" id="return-to-top">
             <i class="icon-up-open-1"></i>
-        </a>
+        </a><!-- #return-to-top -->
 
         <!-- Scripts -->
+        <script src="js/modernizr.js"></script>
         <script src="js/vendor.js"></script>
         <script src="js/app.min.js"></script>
     </body>

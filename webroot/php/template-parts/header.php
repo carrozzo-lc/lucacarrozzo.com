@@ -14,8 +14,9 @@
         </div><!-- .button-left -->
 
         <div class="brand">
-            <a href="<?php echo $siteUrl; ?>" title="<?php echo $metaTitle; ?>"></a>
-            <img class="logo" src="<?php echo $logo; ?>" alt="<?php echo $metatitle; ?>">
+            <a href="<?php echo $siteUrl; ?>" title="<?php echo $metaTitle; ?>">
+                <img class="logo" src="<?php echo $logo; ?>" alt="<?php echo $metatitle; ?>">
+            </a>
         </div><!-- .brand -->
 
         <div class="button-right">

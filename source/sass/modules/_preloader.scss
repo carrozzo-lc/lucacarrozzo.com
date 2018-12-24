@@ -36,11 +36,16 @@
     }
 }
 
-.lds-ring {
+.lds-container {
     @include flexbox()
     @include justify-content(center)
     @include align-items(center)
-    height:60%;
+    height:68%;
+}
+.lds-ring {
+    width: 132px;
+    height: 132px;
+    //background-color: black;
 }
 .lds-ring div {
   box-sizing: border-box;
