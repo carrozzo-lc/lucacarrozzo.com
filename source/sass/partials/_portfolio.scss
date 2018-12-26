@@ -20,7 +20,7 @@
             //@include rem(margin-bottom, 180px)
         }
         @include media-breakpoint-down(md){
-            @include rem(margin-bottom, 180px)
+            @include rem(margin-bottom, 200px)
         }
         @include media-breakpoint-down(sm){
             //@include rem(margin-bottom, 100px)
@@ -71,13 +71,15 @@
         top: 25%;
         right: 4%;
         z-index: 20;
+        outline: 3px solid rgba(42, 42, 42, .1);
+        outline-offset: -3px;
+        -webkit-background-clip: padding-box; /* for Safari */
+        background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 
         &--left {
             left: 4%;
             right: auto;
-            @include media-breakpoint-down(md){
-
-            }
+            @include media-breakpoint-down(md){}
         }
 
         @include media-breakpoint-down(xl){
@@ -87,9 +89,12 @@
         @include media-breakpoint-down(lg){
             width:460px;
             height:auto;
+            min-height:196px;
             @include rem(padding, 22px)
         }
         @include media-breakpoint-down(md){
+            min-height:175px;
+            @include rem(padding-bottom, 35px)
             top: auto;
             right: 0;
             left:0;
@@ -98,6 +103,7 @@
         }
         @include media-breakpoint-down(sm){
             width:340px;
+            min-height:auto;
         }
         @include media-breakpoint-down(xs){
             width:250px;
@@ -142,9 +148,15 @@
             @include rem(font-size, 18px)
         }
         @include media-breakpoint-down(xs){
-            p {
+            > div {
                 display:none !important;
             }
+        }
+
+        ul {
+            margin:0;
+            padding:0;
+            @include rem(padding-left,30px);
         }
     }
 

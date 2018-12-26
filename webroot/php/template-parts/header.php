@@ -20,13 +20,13 @@
         </div><!-- .brand -->
 
         <div class="button-right">
-            <a href="<?php echo $twitter; ?>" class="btn btn--twitter d-none d-sm-block" title="twitter <?php echo $name; ?>">
+            <a href="<?php echo $twitter; ?>" class="btn btn--twitter d-none d-sm-block" title="twitter <?php echo $name; ?>" target="_blank">
                 <i class="icon icon-twitter"></i>
             </a>
-            <a href="<?php echo $linkedin; ?>" class="btn btn--linkedin d-none d-sm-block" title="linkedin <?php echo $name; ?>">
+            <a href="<?php echo $linkedin; ?>" class="btn btn--linkedin d-none d-sm-block" title="linkedin <?php echo $name; ?>" target="_blank">
                 <i class="icon icon-linkedin"></i>
             </a>
-            <a href="mailto:<?php echo $mail; ?>" class="btn btn--mail d-none d-sm-block" title="Email <?php echo $name; ?>">
+            <a href="mailto:<?php echo $mail; ?>" class="btn btn--mail d-none d-sm-block" title="Email <?php echo $name; ?>" target="_blank">
                 <i class="icon icon-mail-alt"></i>
             </a>
 
@@ -38,13 +38,13 @@
                         </div>
                         <div id="socialGallery">
                             <div class="socialToolBox">
-                                <a href="<?php echo $twitter; ?>" class="btn btn--twitter" title="twitter <?php echo $name; ?>">
+                                <a href="<?php echo $twitter; ?>" class="btn btn--twitter" title="twitter <?php echo $name; ?>" target="_blank">
                                     <i class="icon icon-twitter"></i>
                                 </a>
-                                <a href="<?php echo $linkedin; ?>" class="btn btn--linkedin " title="linkedin <?php echo $name; ?>">
+                                <a href="<?php echo $linkedin; ?>" class="btn btn--linkedin " title="linkedin <?php echo $name; ?>" target="_blank">
                                     <i class="icon icon-linkedin"></i>
                                 </a>
-                                <a href="<?php echo $mail; ?>" class="btn btn--mail" title="Email <?php echo $name; ?>">
+                                <a href="<?php echo $mail; ?>" class="btn btn--mail" title="Email <?php echo $name; ?>" target="_blank">
                                     <i class="icon icon-mail-alt"></i>
                                 </a>
                             </div>

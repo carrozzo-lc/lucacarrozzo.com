@@ -415,7 +415,7 @@ $(document).ready(function(){
     // Truncate text with clamp.js
     //---------------------------------------------
     $(window).resize(function(){
-        if ($(window).width() <= 992) {
+        if ($(window).width() <= 767) {
             // var module = document.getElementById("clampjs");
             // $clamp(module, {clamp: 3});
             $('.clampjs').each(function(index, element) {

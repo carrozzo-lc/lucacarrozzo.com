@@ -19,10 +19,10 @@
         </div><!-- .footer-block__contact -->
 
         <div class="footer-block__social">
-            <a href="<?php echo $twitter; ?>" class="btn-social" title="twitter">
+            <a href="<?php echo $twitter; ?>" class="btn-social" title="twitter" target="_blank">
                 <i class="icon icon-twitter"></i>
             </a>
-            <a href="<?php echo $linkedin; ?>" class="btn-social" title="linkedin">
+            <a href="<?php echo $linkedin; ?>" class="btn-social" title="linkedin" target="_blank">
                 <i class="icon icon-linkedin"></i>
             </a>
         </div><!-- .social-box -->
