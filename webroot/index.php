@@ -35,7 +35,7 @@
         <!-- Iubenda Scripts -->
         <script type="text/javascript">
         var _iub = _iub || [];
-        _iub.csConfiguration = {"lang":"en","siteId":1473616,"cookiePolicyUrl":"https://www.iubenda.com/privacy-policy/55375345","cookiePolicyId":55375345, "banner":{ "slideDown":false,"applyStyles":false,"textColor":"white","backgroundColor":"black" } };
+        _iub.csConfiguration = {"lang":"en","siteId":1473616,"cookiePolicyUrl":"https://www.iubenda.com/privacy-policy/55375345/legal","cookiePolicyId":55375345, "banner":{ "slideDown":false,"applyStyles":false,"textColor":"white","backgroundColor":"black" } };
         </script><script type="text/javascript" src="//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js" charset="UTF-8" async></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->

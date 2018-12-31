@@ -22,15 +22,15 @@
     $mastheadImg = "images/masthead-img.svg";
     $introTitle = "Luca Carrozzo";
     $introSubtitle = "Front End Developer";
-    $introDesc = "Web Designer / Front-End Developer web enthusiast in all its many facets, constantly updating on new industry specifications and trends.";
+    $introDesc = "Web Designer / Front-End Developer, constantly updating on new industry specifications and trends.";
 
 
     //-- About
     $abt_title = "About";
     $abt_description = "
-    <p>I am Luca Carrozzo, a Front-End Developer based in Italy. I am primarily focused on website and interface development for web applications but love taking on any good front end dev challenge.</p>
+    <p>I am Luca Carrozzo, a Front-End Developer based in Italy. I am primarily focused on website and interface development for web applications but I love taking on any good front end dev challenge.</p>
     <p class=\"about__rev-txt\">I have 6 years of hands-on experience efficiently coding websites and applications using modern HTML, CSS, and JavaScript. Building state-of-the-art, easy to use, user-friendly websites and applications is truly a passion of mine. I actively seek out new technologies and stay up-to-date on industry trends and advancements.</p>
-    <p class=\"about__rev-txt\">Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I’ve worked for - both full-time and contract.</p>
+    <p class=\"about__rev-txt\">Continued education allows me to stay ahead of the curve and deliver exceptional work to each employer I’ve worked for - both full-time and contract.</p>
     ";
     $abt_btnRead = "Read more";
     $abt_btnCv = "Download CV";
@@ -51,11 +51,11 @@
 
     $srv_icon02 = "<div class=\"service__icon icon-desktop\"></div>";
     $srv_title02 = "Web Design";
-    $srv_desc02 = "Every project that I made are developed with passion to look and perform beautifully on every device. I can design web elements and layouts following the latest techniques and trends.";
+    $srv_desc02 = "Every projects that I worked on are developed with passion to look and perform beautifully on every device. I can design web elements and layouts following the latest techniques and trends.";
 
     $srv_icon03 = "<div class=\"service__icon icon-wordpress\"></div>";
     $srv_title03 = "WordPress Development";
-    $srv_desc03 = "I develop WordPress sites from scratch, providing with best practices and clean code, assuring that your website is fast, safe and secure.";
+    $srv_desc03 = "I develop WordPress sites from scratch with best practices and clean code, assuring that your website is fast, safe and secure.";
 
 
     //-- Portfolio
@@ -63,14 +63,14 @@
 
     $prt_title1 = "Hoselink";
     $prt_subtitle1 = "Sub text";
-    $prt_description1 = "I built a design system for the refactoring of the company e-commerce site, separating the main elements of the site in reusable and maintainable patterns. I improved the development workflow with a new solid and clean code structure, connecting all processes through a repository.";
+    $prt_description1 = "I built a design system for the refactoring of the company e-commerce site, separating the main elements of the site in reusable and maintainable patterns and I improved the development workflow with a new solid and clean code structure, connecting all processes through a repository.";
     $prt_image1 = "images/portfolio-hoselink.jpg";
     $prt_link1 = "https://www.hoselink.com.au/";
     $prt_color1 = "#1A9958";
 
     $prt_title2 = "Limitless Kite Tours";
     $prt_subtitle2 = "Kitesurf destination and trip";
-    $prt_description2 = "I designed the layout choosing colors, typography and site structure. I built a Wordpress site developing a custom theme from scratch following the specifics request of my client.";
+    $prt_description2 = "I designed the layout choosing colors, typography and site structure. Then I built a Wordpress site developing a custom theme from scratch following the specifics request of my client.";
     $prt_image2 = "images/portfolio-lkt.jpg";
     $prt_link2 = "http://www.limitlesskitetours.com/";
     $prt_color2 = "#31B9BD";
@@ -78,7 +78,7 @@
     $prt_title3 = "Iaki";
     $prt_subtitle3 = "Brand engagement agency (Milan)";
     $prt_description3 = "
-    I collaborate in the development team on various projects, including:
+    I collaborated in the development team on various projects, including:
 <br>
 - Website development <a style=\"color:black;\" href=\"https://www.tupassi.it\" target=\"_blank\">Tupassi</a>;
 <br>
@@ -93,27 +93,27 @@
 
     $prt_title4 = "Wpfriendly";
     $prt_subtitle4 = "Blog";
-    $prt_description4 = "It's my blog:) The topic are about new tricks, plugins and features of WordPress. I designed all graphic elements and developed a design system to organise all components of the site. Then I built the blog using WordPress creating a custom theme from scratch.";
+    $prt_description4 = "It's my blog :-) It's all about new tricks, plugins and features of WordPress. I designed all graphic elements and developed a design system to organise all components of the site. Then I built the blog using WordPress developing a custom theme from scratch.";
     $prt_image4 = "images/portfolio-blog.jpg";
     $prt_link4 = "http://www.wpfriendly.it/";
     $prt_color4 = "#305E95";
 
     $prt_title5 = "TouranGo";
     $prt_subtitle5 = "Tour Operator Online";
-    $prt_description5 = "I created this landing page designing each graphic elements and then wrote all code from scratch.";
+    $prt_description5 = "I created this landing page designing each graphic element and then write all codes from scratch.";
     $prt_image5 = "images/portfolio-tourango.jpg";
     $prt_link5 = "http://www.tourango.it/";
     $prt_color5 = "#4EB8DB";
 
     $prt_title6 = "Koinomia";
     $prt_subtitle6 = "Advertising agency";
-    $prt_description6 = "I collaborate with this agency for some projects and restyling their company site. In this case, I develop a WordPress site developing a custom theme following the full detailed design mockup.";
+    $prt_description6 = "I collaborated with this agency for some projects and for restyling its company site. In this case, I developed a WordPress site developing a custom theme following the full detailed design mockup.";
     $prt_image6 = "images/portfolio-koinomia.jpg";
     $prt_link6 = "http://www.koinomia.it/";
     $prt_color6 = "#CDCD4B";
 
 
     //-- Footer
-    $footer_intro = "Did you like my work? I can do something similar for you.";
+    $footer_intro = "Did you like my work?<br>I can do something similar for you.";
 
 ?>
