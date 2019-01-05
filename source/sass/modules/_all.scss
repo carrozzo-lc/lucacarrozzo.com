@@ -1,0 +1,17 @@
+// -----------------------------
+// Modules
+// -----------------------------
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "modules/_base.scss";
+@import "modules/_mixins.scss";
+@import "modules/_fonts.scss";
+@import "modules/_variables.scss";
+@import "modules/_icons.scss";
+@import "modules/_buttons.scss";
+@import "modules/_skills.scss";
+@import "modules/_preloader.scss";
+@import "modules/_ie.scss";
